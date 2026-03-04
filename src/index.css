@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --color-neon-cyan: #00f2ff;
+  --color-neon-purple: #7000ff;
+  --color-dark-bg: #030303;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: #030303;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    /* Font size base increase */
+    font-size: 18px; 
+  }
+}
+
+.bg-mesh {
+  background-color: #030303;
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(0, 242, 255, 0.15) 0%, transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(112, 0, 255, 0.15) 0%, transparent 45%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
