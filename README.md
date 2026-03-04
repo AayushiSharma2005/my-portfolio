@@ -1,16 +1,93 @@
-# React + Vite
+# 🌐 My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built using **React** and **Vite**.
+It showcases my projects, skills, and experience, and is deployed using **GitHub Pages**.
 
-Currently, two official plugins are available:
+🚀 **Live Website:**
+https://aayushisharma2005.github.io/my-portfolio/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📁 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React**
+* **Vite**
+* **JavaScript (ES6+)**
+* **CSS / Tailwind (if used)**
+* **GitHub Pages for deployment**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation & Setup (For Developers)
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AayushiSharma2005/my-portfolio.git
+cd my-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project locally:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌍 Deployment (GitHub Pages)
+
+This project uses **Vite + GitHub Pages**.
+Make sure your `vite.config.js` includes:
+
+```js
+export default defineConfig({
+  base: "/my-portfolio/",
+  plugins: [react()],
+});
+```
+
+To deploy:
+
+```bash
+npm run deploy
+```
+
+(Or push your code to GitHub and enable Pages in repo settings.)
+
+---
+
+## 📸 Features
+
+* Clean and modern UI
+* Mobile responsive
+* Fast loading with Vite
+* Easy-to-update components
+* Showcases skills and projects
+
+---
+
+## 📬 Contact
+
+Feel free to reach out if you'd like to connect or collaborate!
+
+**Aayushi Sharma**
+🔗 GitHub: https://github.com/AayushiSharma2005
