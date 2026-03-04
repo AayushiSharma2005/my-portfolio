@@ -70,10 +70,25 @@ export default function App() {
             </div>
             <h3 className="text-5xl font-bold mb-6 group-hover:text-neon-cyan transition-colors">CV Toolkit 🖼️</h3>
             <p className="text-xl text-gray-400 mb-10 leading-relaxed">OpenCV-Powered web app for real-time image processing. Features Edge Detection, Grayscale, and interactive filters.</p>
-            <div className="flex gap-6">
-              <button className="flex items-center gap-2 text-neon-cyan font-bold hover:underline underline-offset-8 text-lg uppercase tracking-wider">Live Demo <ExternalLink size={20}/></button>
-              <button className="flex items-center gap-2 text-gray-500 font-bold hover:text-white text-lg uppercase tracking-wider">Source Code <Github size={20}/></button>
-            </div>
+           <div className="flex gap-6">
+  <a
+    href="https://drive.google.com/file/d/1xXTeMn_zzoUx-Ep5D_y0s1J1hcQ9Hkvg/view?usp=drive_link"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 text-neon-cyan font-bold hover:underline underline-offset-8 text-lg uppercase tracking-wider"
+  >
+    Live Demo <ExternalLink size={20} />
+  </a>
+
+  <a
+    href="https://github.com/AayushiSharma2005/-OpenCV-Toolkit-"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 text-gray-500 font-bold hover:text-white text-lg uppercase tracking-wider"
+  >
+    Source Code <Github size={20} />
+  </a>
+</div>
           </motion.div>
 
           {/* Project 2: LLMs for CV */}
